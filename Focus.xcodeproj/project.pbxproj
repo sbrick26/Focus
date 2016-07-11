@@ -13,6 +13,8 @@
 		C40C838D1D24486900F48BC5 /* Focus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C40C838B1D24486900F48BC5 /* Focus.xcdatamodeld */; };
 		C40C838F1D24486900F48BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40C838E1D24486900F48BC5 /* Assets.xcassets */; };
 		C40C83921D24486900F48BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40C83901D24486900F48BC5 /* LaunchScreen.storyboard */; };
+		C40C839C1D244F9200F48BC5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C839B1D244F9200F48BC5 /* TableViewController.swift */; };
+		C46E431D1D26F110006BB286 /* StartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46E431C1D26F110006BB286 /* StartCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C40C838E1D24486900F48BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40C83911D24486900F48BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40C83931D24486900F48BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40C839B1D244F9200F48BC5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		C46E431C1D26F110006BB286 /* StartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		C40C83831D24486900F48BC5 /* Focus */ = {
 			isa = PBXGroup;
 			children = (
+				C40C839B1D244F9200F48BC5 /* TableViewController.swift */,
 				C40C83841D24486900F48BC5 /* AppDelegate.swift */,
 				C40C83861D24486900F48BC5 /* ViewController.swift */,
 				C40C83881D24486900F48BC5 /* Main.storyboard */,
+				C46E431C1D26F110006BB286 /* StartCell.swift */,
 				C40C838E1D24486900F48BC5 /* Assets.xcassets */,
 				C40C83901D24486900F48BC5 /* LaunchScreen.storyboard */,
 				C40C83931D24486900F48BC5 /* Info.plist */,
@@ -142,6 +148,8 @@
 				C40C83871D24486900F48BC5 /* ViewController.swift in Sources */,
 				C40C838D1D24486900F48BC5 /* Focus.xcdatamodeld in Sources */,
 				C40C83851D24486900F48BC5 /* AppDelegate.swift in Sources */,
+				C40C839C1D244F9200F48BC5 /* TableViewController.swift in Sources */,
+				C46E431D1D26F110006BB286 /* StartCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				C40C83981D24486900F48BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
